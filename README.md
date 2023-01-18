@@ -12,5 +12,4 @@ We plan to use four different strategies mainly on stocks and integrate them tog
 NLP-based strategy which analyzes the SEC reports, pairs trading strategy on baskets of stocks using clustering, and rank-based sentiment analysis on the internet. These four strategies will be integrated together using Harry Markowitz's modern portfolio theory in order to minimize the risk. We will also build a platform that traders can use after training the model with combined strategies
 ## Model Design
 
-![image](./Model Design.png)
-
+![image](https://github.com/YanggWendy/FYP-Portfolio-Management-System/blob/main/Model%20Design.png)
