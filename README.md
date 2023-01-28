@@ -13,3 +13,5 @@ NLP-based strategy which analyzes the SEC reports, pairs trading strategy on bas
 ## Model Design
 
 ![image](https://github.com/YanggWendy/FYP-Portfolio-Management-System/blob/main/Model%20Design.png)
+
+For more information, please refer to report: https://github.com/YanggWendy/FYP-Portfolio-Management-System/blob/main/Report/FYP%20Proposal.pdf
