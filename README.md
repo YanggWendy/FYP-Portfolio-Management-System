@@ -1,5 +1,5 @@
-# FYP-Portfolio-Management-System
-# Machine Learning Based All Weather U.S. Stock Portfolio Management System
+# FYP-Portfolio-Management
+# Evaluating the Performance of Machine Learning Based Portfolio Management in the Cryptocurrency and U.S Stock Market
 ## Authors: YANG Wenting, CHO Hangsun, TAM Ching Lung, Ferdy
 
 ## Abstract
