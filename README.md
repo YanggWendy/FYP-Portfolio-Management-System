@@ -8,6 +8,6 @@ Nowadays more and more investors and traders are utilizing machine learning when
 
 ## Model Design
 
-![image](https://github.com/YanggWendy/FYP-Portfolio-Management-System/blob/main/Model%20Design.png)
+![image](https://github.com/YanggWendy/FYP-Portfolio-Management-System/blob/main/design.png)
 
 For more information, please refer to report: https://github.com/YanggWendy/FYP-Portfolio-Management-System/blob/main/Report/FYP%20Final%20Report.pdf
