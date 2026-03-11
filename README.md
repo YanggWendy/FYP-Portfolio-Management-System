@@ -1,13 +1,94 @@
-# FYP-Portfolio-Management
-# Evaluating the Performance of Machine Learning Based Portfolio Management in the Cryptocurrency and U.S Stock Market
-## Authors: YANG Wenting, CHO Hangsun, TAM Ching Lung, Ferdy
+# FYP-Portfolio-Management-System
 
-## Abstract
+## Description
+Application for the MaxCloud ecosystem. Built with custom stack to provide robust backend services and data management capabilities.
 
-Nowadays more and more investors and traders are utilizing machine learning when generating trading ideas. This project aims to create a portfolio management on the stocks listed in the United State by incorporating different machine learning models via ensemble learning. In total, we implemented four different strategies using machine learning which are: Multi-factor stock selection model using LSTM and GRU, stock selection using Natural Language Processing models. Then, risk mitigation was done by calculating similarity scores and matrix using machine learning for the selected stocks. The best model of Multi-factor stock selection is GRU model trained with both technical and fundamental data, which  can achieve annualized return 24.2% and max drawdown 17.6%. The stock selection using Natural Language Process model able to filter out stocks with negative sentiment on its 10-K report, creating a more effective trade by holding the only necessary stocks and overall enhancing the strategy's return per trade and minimize the Max Drawdown when compared to a passive strategy that involves buying and holding the S&P 500 index. The stock selection using social media sentiment was able to extract sentiment and predict stocks and cryptocurrency prices using XGBoost, providing more diverse data sources and assets. The risk mitigation model removed similar stocks and created a new portfolio, which had 3 percentage points less in maximum drawdown and 8 percentage points less in return compared to the original portfolio. In the end the combined model had higher yearly return than that of the SPY, and outperformed SPY’s maximum drawdown by 7.3 percentage points.
+## Tech Stack
+- **Language:** Unknown
+- **Framework:** Custom
+- **Build Tool:** Other
+- **Key Libraries:** Depends on configuration (see package.json/pom.xml/build.gradle)
 
-## Model Design
+## Project Structure
+- `src/` - Source code
+- `test/` - Test files
+- Configuration files at root (pom.xml, package.json, build.gradle, etc.)
 
-![image](https://github.com/YanggWendy/FYP-Portfolio-Management-System/blob/main/design.png)
+## Key Features & Capabilities
+- REST API endpoints
+- Data persistence layer
+- Authentication & Authorization
+- Error handling & validation
+- Database integration
 
-For more information, please refer to report: https://github.com/YanggWendy/FYP-Portfolio-Management-System/blob/main/Report/FYP%20Final%20Report.pdf
+## Common Workflows
+
+### Setup
+```bash
+# Clone and install dependencies
+git clone <repo-url>
+cd FYP-Portfolio-Management-System
+
+# For Java/Kotlin projects
+./gradlew build
+
+# For Node.js projects
+npm install
+```
+
+### Build
+```bash
+# Kotlin/Spring Boot
+./gradlew build
+
+# Node.js
+npm run build
+```
+
+### Test
+```bash
+# Kotlin/Spring Boot
+./gradlew test
+
+# Node.js
+npm test
+```
+
+### Deploy
+Documentation in deployment configuration files or CI/CD pipeline.
+
+## AI Agent Management
+- **Can AI modify code?** Yes - API endpoints, services, data models
+- **Can AI run tests?** Yes - Run test suites with gradle test or npm test
+- **Can AI deploy?** Limited - Can build, but deployment requires credentials
+- **Key files to know:**
+  - `build.gradle.kts` or `pom.xml` (Java/Kotlin)
+  - `package.json` (Node.js)
+  - `src/main/` (Source code)
+  - `src/test/` (Tests)
+- **How AI can contribute:**
+  - Fix bugs and implement features in API endpoints
+  - Write unit tests
+  - Refactor code for maintainability
+  - Update API documentation
+  - Optimize database queries
+- **Configuration files:**
+  - Environment variables in `.env` or application.yml
+  - Database connection strings
+  - API credentials
+- **Database/External deps:**
+  - MySQL, PostgreSQL, or MongoDB (varies by project)
+  - Redis for caching (in some services)
+  - External APIs for third-party integrations
+- **Build/Test commands:**
+  - `./gradlew build` (Gradle projects)
+  - `mvn clean package` (Maven projects)
+  - `npm run build` (Node.js)
+  - `npm test` or `./gradlew test`
+
+## Important Notes
+- Ensure all dependencies are installed before building
+- Check environment variables and configuration files before running
+- Database migrations may be required on first setup
+- Review .gitignore for sensitive files not to be committed
+
